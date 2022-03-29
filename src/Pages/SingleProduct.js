@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Rating from '../components/HomeComps/Rating';
+import Message from '../components/LoadingError/Error';
 import products from "../data/ProductItem";
 
 const SingleProduct = () => {
@@ -70,7 +71,7 @@ const SingleProduct = () => {
                 <div className="row my-5">
                     <div className="col-md-6">
                         <h6 className="mb-3">REVIEWS</h6>
-                        {/* <Message variant={"alert-info mt-3"}>No Reviews</Message> */}
+                        <Message variant={"alert-info mt-3"}>No Reviews</Message>
                         <div className="mb-5 mb-md-3 bg-light p-3 shadow-sm rounded">
                             <strong>Admin Doe</strong>
                             <Rating />
@@ -112,7 +113,7 @@ const SingleProduct = () => {
                                 </button>
                             </div>
                         </form>
-                        {/* <div className="my-3">
+                        <div className="my-3">
                             <Message variant={"alert-warning"}>
                                 Please{" "}
                                 <Link to="/login">
@@ -120,7 +121,7 @@ const SingleProduct = () => {
                                 </Link>{" "}
                                 to write a review{" "}
                             </Message>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
