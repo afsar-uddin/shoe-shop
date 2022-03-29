@@ -7,6 +7,7 @@ import Message from '../components/LoadingError/Error';
 import products from "../data/ProductItem";
 
 const SingleProduct = () => {
+    window.scrollTo(0, 0);
     const { id } = useParams();
     const product = products.find((p) => p._id === (id));
 

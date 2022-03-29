@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/Home";
 import SingleProduct from "./Pages/SingleProduct";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products/:id" element={<SingleProduct />} />
+          <Route path="/login/" element={<Login />} />
+          <Route path="/register/" element={<Register />} />
 
         </Routes>
       </BrowserRouter>

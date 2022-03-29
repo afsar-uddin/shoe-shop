@@ -56,6 +56,12 @@ body {
   /* Header */
   .header {
     padding: 10px 0px 10px 0px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 25px 50px -44px;
+}
+  .navbar-brand {
+    box-shadow: -10px -10px 20px 0px rgb(0 0 0 / 8%);
+    padding: 15px;
+    border-radius: 15px;
   }
   .navbar-brand img {
     width: 60%;
@@ -63,7 +69,8 @@ body {
   .navbar-brand span {
     display: block;
     font-weight: bold;
-    line-height: 16px;
+    line-height: 27px;
+    font-size: 32px;
 }
 .navbar-brand span:last-child {
     margin-left: 20px;
