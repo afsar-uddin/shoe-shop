@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import products from "../../data/ProductItem";
+import Pagination from "./Pagination";
 import Rating from "./Rating";
 
 const Products = () => {
@@ -38,6 +39,8 @@ const Products = () => {
                                     </div>
                                 </div>
                             ))}
+                            {/* Pagination */}
+                            <Pagination />
                         </div>
                     </div>
                 </div>
