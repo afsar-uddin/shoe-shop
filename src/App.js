@@ -11,6 +11,7 @@ import Home from "./Pages/Home";
 import SingleProduct from "./Pages/SingleProduct";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+import Profile from "./Pages/Profile";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/products/:id" element={<SingleProduct />} />
           <Route path="/login/" element={<Login />} />
           <Route path="/register/" element={<Register />} />
+          <Route path="/profile/" element={<Profile />} />
 
         </Routes>
       </BrowserRouter>
