@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import ProfileTabs from "../components/profileComponents/ProfileTabs";
 import Orders from "./../components/profileComponents/Orders";
 
-const ProfileScreen = () => {
+const Profile = () => {
     window.scrollTo(0, 0);
     return (
         <>
@@ -93,4 +93,4 @@ const ProfileScreen = () => {
     );
 };
 
-export default ProfileScreen;
+export default Profile;
